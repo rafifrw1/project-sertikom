@@ -10,7 +10,6 @@
 .history
 .svn/
 .swiftpm/
-.assets/
 migrate_working_dir/
 
 # IntelliJ related
@@ -33,6 +32,9 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+
+# Local-only assets
+/assets/images/foto.jpg
 
 # Symbolication related
 app.*.symbols
