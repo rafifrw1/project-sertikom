@@ -250,11 +250,8 @@ class _SettingPagesState extends State<SettingPages> {
                         radius: 28,
                         backgroundColor:
                             const Color(0xFFE91E63).withOpacity(0.12),
-                        child: const Icon(
-                          Icons.person_rounded,
-                          size: 34,
-                          color: Color(0xFFE91E63),
-                        ),
+                        backgroundImage:
+                            const AssetImage('assets/images/foto.jpg'),
                       ),
                       const SizedBox(width: 14),
                       Column(
